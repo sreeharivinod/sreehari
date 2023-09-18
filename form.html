@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Form Validation
+    </title>
+    
+     <style>
+        /** contact section **/
+
+.contact {
+     background: #b5b1b1;
+     padding: 80px 0 100px 0;
+}
+
+.contact .titlepage p {
+     color: #090404;
+}
+
+.main_form .contactus {
+     border: 1px;color: #333ed8;
+     padding: 0 15px;
+     margin-bottom: 25px;
+     width: 97%;
+     height: 68px;
+     background: #dbdada;
+     color:black;
+     font-size: 16px;
+     font-weight: normal;
+}
+
+.main_form .textarea {
+     border: inherit;
+     margin-bottom: 25px;
+     width: 97%;
+     background: #dbdada;
+     color: black;
+     font-size: 18px;
+     font-weight: normal;
+     padding: 36px 15px 0 15px;
+     border-radius: 0;
+     height: 109px;
+}
+
+
+
+
+#request *::placeholder {
+     color: #969494;
+     opacity: 1;
+}
+button{
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration:none;
+                display: inline-block;
+                font-size: 17px;
+                transition: ease-in all 0.5s;
+                background-color: #0c0909;
+                color: #fff;
+                 height: 68px;
+                line-height: 68px;
+                 max-width: 216px;
+                width: 100%;
+                display: block;
+                margin-top: 10px !important;
+                font-weight: 500;
+                margin: 0 auto;
+}
+button:hover{
+    background-color: #7f16ca;
+     transition: ease-in all 0.5s;
+     color: #fff;
+}
+     </style>
+
+    <!-- contact section -->
+      <div class="contact left_cross_right">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_left">
+                     <h2>REGISTRATION FORM.</h2>
+                    
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="You Name" type="type" name="Name"> 
+                        </div>
+                        <div class="col-md-6">
+                            <input class="contactus" placeholder="Email" type="type" name="Address"> 
+                         </div>
+                        <div class="col-md-6">
+                           <input class="contactus" placeholder="Email" type="type" name="Email"> 
+                        </div>
+                        <div class="col-md-6">
+                           <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
+                        </div>
+                        <div class="col-md-12">
+                           <textarea class="textarea" placeholder="Message" type="Comments"></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button onclick="myFunction()">submit</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+        function myFunction() {
+          alert("Thank You!");
+        }
+        </script>
+</body>
+</html>
